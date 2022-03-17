@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Dashboard</title>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/bootstrap.min.css') }}">
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/bootstrap.min.css') }}">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body id="page-top">
+	<div id="wrapper">
+		<nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-black">
+            <div class="container-fluid d-flex flex-column p-0"><a
+                    class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0"
+                    href="/">
+                    <div class="sidebar-brand-icon"><i class="fa-solid fa-droplet" 
+                            data-bss-hover-animate="wobble"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span>WATER SYSTEM</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item"><a class="nav-link" href="/"><i
+                        class="fa-solid fa-droplet"></i><span>Product</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/insert"><i class="fa-solid fa-droplet"></i><span>Insert
+                        </span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/customer"><i
+                        class="fa-solid fa-droplet"></i><span>Customer Records</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/sim"><i class="fa-solid fa-droplet"></i><span>Product Records
+                        </span></a></li>
+                   <li class="nav-item"></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0"
+                        id="sidebarToggle" type="button"></button></div>
+            </div>
+        </nav>
+		<div class="d-flex flex-column" id="content-wrapper">
+			<div id="content">
+				<nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+					<div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle me-3"
+							id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button><span
+							class="d-none d-lg-inline me-2 text-gray-600 small" style="font-size: 23px;">Aqua Management System
+						</span></div>
+				</nav>
+				<div class="container-fluid">
+					<div class="d-sm-flex justify-content-between align-items-center mb-4">
+						<h3 class="text-dark mb-0">Products</h3>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-xl-3 mb-4">
+							<div class="card shadow border-start-primary py-2">
+								<img class="card-img-top" src="https://i.pinimg.com/1200x/b7/3d/22/b73d2268aec4fbdbe6354a9294c8caca.jpg"/>	
+								<div class="card-body">
+									<div class="row align-items-center no-gutters">
+										<div class="col me-2">
+											<span>Sparkling Water  4$</span>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-3 mb-4">
+							<div class="card shadow border-start-primary py-2">
+								<img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/61W35Xn4j-L._SL1500_.jpg"/>	
+								<div class="card-body">
+									<div class="row align-items-center no-gutters">
+										<div class="col me-2">
+											<span>Mint Water  4$</span>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-3 mb-4">
+							<div class="card shadow border-start-primary py-2">
+								<img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/51BoR3HvSDL.jpg"/>	
+								<div class="card-body">
+									<div class="row align-items-center no-gutters">
+										<div class="col me-2">
+											<span>Banana Water  4$</span>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-3 mb-4">
+							<div class="card shadow border-start-primary py-2">
+								<img class="card-img-top" src="https://dg6qn11ynnp6a.cloudfront.net/wp-content/uploads/2018/01/24135205/Just-Water.png"/>	
+								<div class="card-body">
+									<div class="row align-items-center no-gutters">
+										<div class="col me-2">
+											<span>Cherry Water  4$</span>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+			<footer class="bg-white sticky-footer">
+				<div class="container my-auto">
+					<div class="text-center my-auto copyright"><span>Aqua Management System</span></div>
+				</div>
+			</footer>
+		</div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="{{ url_for('static', filename='script.min.js')}}"></script>
+	<script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
